@@ -13,7 +13,7 @@ spec:
             app: captureorder
       spec:
         containers:
-        - name: captureorder
+        - name: captureoder
           image: bensacr.azurecr.io/captureorder # replace with your own repository
           imagePullPolicy: Always
           readinessProbe:
